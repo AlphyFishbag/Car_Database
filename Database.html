@@ -1,17 +1,17 @@
 <html>
 <head>
 	<meta charset="UTF8"></meta>
-	<script src="lab8.js" defer></script>
+	<script src="Database.js" defer></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<link href="lab8.css" type="text/css" rel="stylesheet">
+<link href="Database.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 
 <div class="input">
-<div class="title">Enter movie information below:</div>
+<div class="title">Enter an NBA Player:</div>
 	<div class="container">
-		<div class="item">Title:<input type="text" id="movieTitle"></div>
-		<div class="item">Year:<input type="text" id="movieYear"></div>
+		<div class="item">First Name:<input type="text" id="First"></div>
+		<div class = "item">Last Name:<input type="text" id ="Last"></div>
 		<div class="item"><button onclick="submit()">Submit</button></div>
 	</div>
 </div>
@@ -21,13 +21,13 @@
 <div id="output">
 <div class="title">Results:</div>
 	<table>
-		<tr><td>first_name:</td><td id="resultFirst"></td></tr>
-		<tr><td>Last Name:</td><td id="resultLast"></td></tr>
-		<tr><td>Height_Feet:</td><td id="resultHeight_Feet"></td></tr>
-		<tr><td>Height_Inches:</td><td id="resultHeight_Inches"></td></tr>
-		<tr><td>Current_Team:</td><td id="resultCurrent_Team"></td></tr>
-		<tr><td>Weight:</td><td id="resultWeight"></td></tr>
-		<tr><td>Position:</td><td id="resultPosition"><img id="ratingImg"></td></tr>
+		<tr><td>Name:</td><td id="resultFirst"></td></tr>
+		<tr><td>Team:</td><td id="resultTeam"></td></tr>
+		<tr><td>Games Played for Season:</td><td id="resultGames"></td></tr>
+		<tr><td>Average Minutes per Game:</td><td id="resultAVG"></td></tr>
+		<tr><td>Field Goal Percentage:</td><td id="resultFG"></td></tr>
+		<tr><td>Free Throw Percentage:</td><td id="resultFT"></td></tr>
+		<tr><td>Three Point Percentage:</td><td id="resultTP"></td></tr>
 	</table>
 </div>
 
