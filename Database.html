@@ -7,11 +7,8 @@
 
 
 </head>
-<body>
-
-<div class="input">
-<div class="title">Enter an NBA Player:</div>
-	<div class="container">
+<body>	
+		<div class="Input_Box">
 		<div class="item">First Name:<input type="text" id="First"></div>
 		<div class = "item">Last Name:<input type="text" id ="Last"></div>
 		<div class="item"><button onclick="submit(); pictures();">Submit</button></div>
@@ -24,12 +21,15 @@
 
 </div>
 
+
 <br><br>
 
-<div id="output">
-<div class="title">Results:</div>
-	<table>
+<div id="Output_Table">
+	<table style ="margin-left: auto;margin-right: auto;">
+
+		<div class="Picture">
 		<tr><td id = "IMG"></tr></td></tr>
+	</div>
 		<tr><td>Name:</td><td id="resultFirst"></td></tr>
 		<tr><td>Team:</td><td id="resultTeam"></td></tr>
 		<tr><td>Games Played for Season:</td><td id="resultGames"></td></tr>

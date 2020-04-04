@@ -1,34 +1,51 @@
-.input {
-  border: 1px solid black;
-  background: rgb(240, 250, 240);
-  padding: 10px;
-  width: 500px;
+.Picture{
+
+
+
 }
 
-.title {
-  border-bottom: 1px solid darkgray;
-  margin-bottom: 5px;
-}
 
-.container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-}
 
-#output {
-  display:none;
-  border: 1px solid black;
-  background: rgb(240, 240, 255);
-  padding: 10px;
-  width: 500px;
-}
 
 td {
-  vertical-align: top;
-  padding: 2px;
+  
+
+  padding: 15px;
+  padding-top: 20px;
 }
 
-img {
+.IMG{
   
+
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+body{
+
+  text-align: center;
+
+  background-image: url(ezgif.com-resize.gif);
+  background-repeat: no-repeat;
+  background-color: black;
+
+  color: wheat;
+}
+
+.Input_Box{
+
+  
+
+  padding: 100px;
+  margin-left: auto;
+  
+}
+
+
+
+button{
+
+  margin:10px;
 }
