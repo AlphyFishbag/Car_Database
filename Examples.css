@@ -13,4 +13,31 @@ h3{
 h2{
 
     text-align: center;
+    font-family: Calibri;
+    letter-spacing: 2px;
+}
+
+
+th, td{
+    
+    padding:15px;
+    text-align:center;
+    font-weight: 300;
+    font-size: large;
+
+    
+    
+}
+
+img{
+
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
 }
