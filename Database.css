@@ -1,8 +1,5 @@
-.Picture{
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
 
-
-
-}
 
 
 
@@ -27,8 +24,8 @@ body{
 
   text-align: center;
 
-  background-image: url(ezgif.com-resize.gif);
-  background-repeat: no-repeat;
+  background-image: url(Background5.gif);
+  background-repeat: repeat-x;
   background-color: black;
 
   color: wheat;
@@ -48,4 +45,32 @@ body{
 button{
 
   margin:10px;
+}
+
+input[type=text]{
+
+  background-color: aqua;
+
+  border-radius: 5px;
+
+  margin: 20px;
+
+  transition-delay: 5s;
+}
+
+input[type=text]:focus{
+
+border:3px solid #555;
+border-radius: 5px;
+
+}
+
+.ml2 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
 }
