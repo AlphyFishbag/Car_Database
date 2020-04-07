@@ -12,13 +12,13 @@ function displayResults(data) {
 		let FG = data.field_goal_percentage + "%";
 		let TP = data.three_point_percentage + "%";
 
-		$("#resultAVG").html(Average_minutes);
-		$("#resultGames").html(games);
+		$("#AVG").html(Average_minutes);
+		$("#Games").html(games);
 		$("#resultFirst").html(first);
-		$("#resultFT").html(FT);
-		$("#resultFG").html(FG);
-		$("#resultTP").html(TP);
-		$("#resultTeam").html(team);
+		$("#FT").html(FT);
+		$("#FG").html(FG);
+		$("#TP").html(TP);
+		$("#Team").html(team);
 		
 
 		
@@ -32,7 +32,7 @@ function displayResults(data) {
 }
 
 function submit() {
-	$("#output").show();
+	$("#Output_Table").show();
 	let name = $("#First").val();
 	let name2 = $("#Last").val();
 	let url = "https://nba-players.herokuapp.com/players-stats/";
@@ -48,7 +48,7 @@ function submit() {
 	function pictures()	{
 			
 			
-		$("#output").show();
+		$("#Output_Table").show();
 		
 		
 		let name = $("#First").val();
@@ -88,7 +88,7 @@ function submit() {
 
 
 
-
+																	//I followed a tutorial to learn how to write this code for the text animation, I have linked the website in the other html file
 	var textWrapper = document.querySelector('.ml2');
 	textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 	

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black'); /*I followed a tutorial to get a text animation, this is the website for it */
 
 
 
@@ -24,7 +24,7 @@ body{
 
   text-align: center;
 
-  background-image: url(Background5.gif);
+  background-image: url(Background5.gif); /*All gif images are from https://giphy.com/ */
   background-repeat: repeat-x;
   background-color: black;
 
@@ -38,6 +38,7 @@ body{
   padding: 100px;
   margin-left: auto;
   
+  
 }
 
 
@@ -45,23 +46,50 @@ body{
 button{
 
   margin:10px;
+
+  border-radius: 12px;
+
+  font-size: larger;
+  font-family: fantasy;
+  
+  color: black;
+  border: 5px solid blanchedalmond;
+}
+
+
+button:hover{
+
+background-color:aqua;
+
+
 }
 
 input[type=text]{
 
-  background-color: aqua;
-
-  border-radius: 5px;
+  
+  color: wheat;
+  border-radius: 15px;
+  font-size: large;
 
   margin: 20px;
 
-  transition-delay: 5s;
+  border: 5px solid white;
+
+ 
+padding: 15px;
+background: rgba(255,255,255,0.1);
+margin: 0 0 10px 0;
+
+  
 }
 
 input[type=text]:focus{
 
-border:3px solid #555;
+border:3px solid rgba(0,0,0,0.1);
 border-radius: 5px;
+background-color: rgba(255,255,255,0.7);
+color: black;
+font-size: large;
 
 }
 
@@ -74,3 +102,14 @@ border-radius: 5px;
   display: inline-block;
   line-height: 1em;
 }
+
+.gang{
+
+  font-size: larger;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#Output_Table{
+  display: none;
+}
+

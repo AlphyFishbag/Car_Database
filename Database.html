@@ -1,8 +1,8 @@
 <html>
 <head>
-	<meta charset="UTF8"></meta>
+	
 	<script src="Database.js" defer></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <!---I followed a tutorial to create a text animation on this website-->
 <link href="Database.css" type="text/css" rel="stylesheet">
 
 
@@ -26,15 +26,16 @@
 		<div class="item">First Name:<input type="text" id="First"></div>
 		<div class = "item">Last Name:<input type="text" id ="Last"></div>
 		<div class="item"><button onclick="submit(); pictures();">Submit</button></div>
+		<div class = "Reload">
+
+			<div class="item"><button onclick = "reload_button();"> Try Another player</button></div>
+		
+		</div>
 	</div>
 </div>	
 </div>
 
-<div class = "Reload">
 
-	<div class="item"><button onclick = "reload_button();"> Try Another player</button></div>
-
-</div>
 
 
 <br><br>
@@ -46,15 +47,16 @@
 		<tr><td id = "IMG"></tr></td></tr>
 	</div>
 		<tr><td>Name:</td><td id="resultFirst"></td></tr>
-		<tr><td>Team:</td><td id="resultTeam"></td></tr>
-		<tr><td>Games Played for Season:</td><td id="resultGames"></td></tr>
-		<tr><td>Average Minutes per Game:</td><td id="resultAVG"></td></tr>
-		<tr><td>Field Goal Percentage:</td><td id="resultFG"></td></tr>
-		<tr><td>Free Throw Percentage:</td><td id="resultFT"></td></tr>
-		<tr><td>Three Point Percentage:</td><td id="resultTP"></td></tr>
+		<tr><td>Team:</td><td id="Team"></td></tr>
+		<tr><td>Games Played for Season:</td><td id="Games"></td></tr>
+		<tr><td>Average Minutes per Game:</td><td id="AVG"></td></tr>
+		<tr><td>Field Goal Percentage:</td><td id="FG"></td></tr>
+		<tr><td>Free Throw Percentage:</td><td id="FT"></td></tr>
+		<tr><td>Three Point Percentage:</td><td id="TP"></td></tr>
 		
 	</table>
 </div>
+
 
 <br><br>
 
